@@ -5,7 +5,9 @@
 }
 
 .div-dispaly-fot{
-    display: flex;
+   display: flex;
+  flex-direction: column;
+  margin-right: 83px;
 }
 
 .logo-footer {
@@ -68,7 +70,6 @@ gap: 16px;
 top: 12px;
 left: 12px;
 color: #f4f4fd;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -88,7 +89,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .div-form-footer {
-  margin-left: 80px;
+   margin-left: auto;
 }
 
 .paragraph-footer-two {
@@ -113,7 +114,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .imput-footer {
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   text-align: left;
   width: 264px;
@@ -125,11 +126,16 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
   outline: none;
   color: white;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.imput-footer:focus {
+  border-color: #31d0aa;
+  outline: none;
 }
 
 .imput-footer::placeholder {
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 
   color: white;
@@ -159,7 +165,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .btn-footer:hover,
 .btn-footer:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .svg-footer {
